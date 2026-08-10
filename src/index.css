@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Space Mono", monospace;
+  --font-lexend: "Lexend Deca", sans-serif;
+}
+
+@layer components {
+  .descMono {
+    @apply font-bold text-[15px] leading-6.25;
+  }
+  .descLexend {
+    @apply font-lexend text-[15px] leading-6.25;
+  }
+  .title {
+    @apply font-bold text-[32px] leading-8 tracking-[-1.43px] md:text-[48px] md:leading-12 md:tracking-[-2.14px];
+  }
+  .subTitle {
+    @apply font-bold text-[24px] leading-7 tracking-[-1.07px];
+  }
+  .yellowBtn {
+    @apply text-white bg-[#FCB72B] cursor-pointer border-3 border-transparent hover:border-[#FCB72B] hover:bg-transparent hover:text-[#FCB72B];
+  }
+}
