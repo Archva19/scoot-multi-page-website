@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
       <div>
-        <div className="w-full  bg-cover bg-center bg-no-repeat bg-[url('Footer/FooterBgMobile.svg')] sm:bg-[url('Footer/FooterBgTablet.svg')] lg:bg-[url('Footer/FooterBgDesktop.svg')]">
+        <div className="w-full  bg-cover bg-center bg-no-repeat bg-[url('/Footer/FooterBgMobile.svg')] sm:bg-[url('/Footer/FooterBgTablet.svg')] lg:bg-[url('/Footer/FooterBgDesktop.svg')]">
           <div className="flex flex-col items-center justify-center text-center py-22 px-8 gap-10 md:py-15.5 lg:py-25.5 lg:flex-row lg:justify-between lg:px-0 lg:w-[77.08%] lg:mx-auto lg:text-left ">
             <p className="text-white title md:w-114.25 lg:w-103.75">
               Sign up and Scoot off today
