@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function Banner() {
   return (
     <>
-      <div className="overflow-hidden relative bg-[url('Home/HomeBannerMobile.webp')] sm:bg-[url('Home/HomeBannerTablet.webp')] lg:bg-[url('Home/HomeBannerDesktop.webp')] bg-cover bg-center bg-no-repeat pt-28.75 pb-44.75 px-8 md:pt-35.25 md:pb-54.25 md:px-24.5 lg:pl-41.25 lg:pr-0 lg:pt-38.25 lg:pb-38">
+      <div className="overflow-hidden relative bg-[url('/Home/HomeBannerMobile.webp')] sm:bg-[url('/Home/HomeBannerTablet.webp')] lg:bg-[url('/Home/HomeBannerDesktop.webp')] bg-cover bg-center bg-no-repeat pt-28.75 pb-44.75 px-8 md:pt-35.25 md:pb-54.25 md:px-24.5 lg:pl-41.25 lg:pr-0 lg:pt-38.25 lg:pb-38">
         <div className="flex flex-col text-center text-[white] items-center justify-center lg:text-left lg:items-start">
           <motion.p
             initial={{ x: -500, opacity: 0 }}

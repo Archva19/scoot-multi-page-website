@@ -32,6 +32,7 @@ export default function Map() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: "easeInOut" }}
             className="w-full bg-[#FCB72B26]/85 py-5.5 text-[24px] leading-7 tracking-[-1.07px] font-bold text-center"
+            key = {item.id}
           >
             {item.city}
           </motion.div>
